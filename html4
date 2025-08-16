@@ -1,0 +1,18 @@
+<section style="padding:30px;">
+  <h2>Service Details</h2>
+  <p>We provide safe, durable and professional wiring & rewiring for homes and businesses.</p>
+  <h3>Pricing</h3>
+  <table border="1" cellpadding="10" style="background:#fff;">
+    <tr><th>Work</th><th>Rate</th></tr>
+    <tr><td>New Wiring</td><td>₹50 per sq. ft.</td></tr>
+    <tr><td>Rewiring</td><td>₹40 per sq. ft.</td></tr>
+  </table>
+
+  <h3>Book Now</h3>
+  <form name="wiring" method="POST" data-netlify="true">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="details" placeholder="Your Requirements" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
