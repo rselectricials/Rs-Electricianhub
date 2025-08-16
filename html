@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wiring & Rewiring - Electrician Hub</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo"><img src="../logo.png" alt="logo"><span>Electrician Hub</span></div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../price-list.html">Price List</a>
+      <a href="../gallery.html">Gallery</a>
+      <a href="../feedback.html">Feedback</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Home Wiring & Rewiring</h1>
+    </div>
+  </section>
+
+  <section style="padding:30px;">
+    <h2>Service Details</h2>
+    <p>We provide safe, durable and professional wiring & rewiring for homes and businesses.</p>
+    <h3>Pricing</h3>
+    <table border="1" cellpadding="10">
+      <tr><th>Work</th><th>Rate</th></tr>
+      <tr><td>New Wiring</td><td>₹50 per sq. ft.</td></tr>
+      <tr><td>Rewiring</td><td>₹40 per sq. ft.</td></tr>
+    </table>
+
+    <h3>Book Now</h3>
+    <form name="wiring" method="POST" data-netlify="true">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="details" placeholder="Your Requirements" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 RS Voltcare</p>
+  </footer>
+</body>
+</html>
