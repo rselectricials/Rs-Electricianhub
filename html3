@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Price List - Electrician Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo"><img src="logo.png" alt="logo"><span>Electrician Hub</span></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="price-list.html">Price List</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="feedback.html">Feedback</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h2>Service Price List</h2>
+    <table border="1" cellpadding="10" style="width:80%; margin:auto; background:#fff;">
+      <tr><th>Service</th><th>Price</th></tr>
+      <tr><td>Home Wiring & Rewiring</td><td>₹50 per sq. ft.</td></tr>
+      <tr><td>Lighting Installation</td><td>₹200 per point</td></tr>
+      <tr><td>Appliance Repair</td><td>₹300 onwards</td></tr>
+      <tr><td>Fan Installation & Repair</td><td>₹150 – ₹300</td></tr>
+      <tr><td>Switchboard Installation</td><td>₹250 – ₹500</td></tr>
+      <tr><td>Inverter & Battery Setup</td><td>₹800 onwards</td></tr>
+      <tr><td>CCTV Camera Installation</td><td>₹1000 per camera</td></tr>
+      <tr><td>Door Bell & Intercom</td><td>₹200 – ₹500</td></tr>
+      <tr><td>Water Motor & Pump Wiring</td><td>₹500 onwards</td></tr>
+      <tr><td>Emergency Electrical Repair</td><td>₹500 (visit charge)</td></tr>
+    </table>
+  </section>
+
+  <footer>
+    <p>© 2025 RS Voltcare</p>
+  </footer>
+</body>
+</html>
